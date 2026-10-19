@@ -1,6 +1,7 @@
 .env
-.aws/
 *.pem
+*.key
 __pycache__/
 *.pyc
+.venv/
 venv/
