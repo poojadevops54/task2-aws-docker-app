@@ -16,14 +16,6 @@ env:
   ECR_REGISTRY: 478400396597.dkr.ecr.ap-south-1.amazonaws.com
 
 jobs:
-  debug-oidc:
-    runs-on: ubuntu-latest
-    permissions:
-      id-token: write
-    steps:
-      - name: Debug OIDC claims
-        uses: github/actions-oidc-debugger@main
-
   build-and-deploy:
     runs-on: ubuntu-latest
 
